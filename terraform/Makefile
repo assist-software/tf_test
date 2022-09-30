@@ -52,7 +52,7 @@ init:
 			  ${SUFFIX}
  
  apply:
-	@terraform -chdir=../terraform/ apply  \
+	@terraform -chdir=../terraform/ apply -auto-approve  \
  		-var-file=../env/${ENV}/variables.tfvars
 	@echo "">backend.tf;
 
