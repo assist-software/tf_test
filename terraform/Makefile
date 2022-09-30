@@ -11,6 +11,8 @@ TERRAFORM_PROJECT_NAME = project
 ############################
 dev01: 
 	$(eval ENV=dev01)
+dev02: 
+	$(eval ENV=dev02)
  
 ############################
 #       TARGETS            #
